@@ -19,7 +19,7 @@ Stay tuned for more updates as I progress through this web development bootcamp!
 
 ## Connect With Me
 
-- **Twitter**: [@YourTwitterHandle](https://twitter.com/ylssty17)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yulius17)
+- **Twitter**: [@ylssty17](https://twitter.com/ylssty17)
+- **LinkedIn**: [Yulius Setyawan](https://linkedin.com/in/yulius17)
 
 Let's learn and grow together! 🌟
