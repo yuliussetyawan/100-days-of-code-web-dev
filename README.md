@@ -1,36 +1,30 @@
 # 100 Days Of Code - 2023 Web Development Bootcamp
 
-## Day 3: Exploring HTML and CSS
+## Day 4: Embracing the Magic of CSS
 
-Welcome to Day 3 of my 100 Days Of Code journey in the "100 Days Of Code - 2023 Web Development Bootcamp." Today, I continued my web development adventure, diving deeper into HTML and CSS concepts. Here are the highlights of what I accomplished:
+Welcome to Day 4 of my 100 Days Of Code journey in the "100 Days Of Code - 2023 Web Development Bootcamp." Today was filled with CSS magic and newfound knowledge that I'm excited to share with you.
 
-**Day 3 Highlights:**
+**Day 4 Highlights:**
 
-- **Working with Colors**: I explored how to use colors in web design, adding visual appeal to my web pages.
+- **Styling the Anchor Element with Pseudo-Hover**: I delved into CSS to style anchor elements with pseudo-hover effects, adding interactivity to my web pages.
 
-- **Formatting our Code**: I learned about code formatting best practices, ensuring my code is clean and readable.
+- **Why it's Called Cascading Style Sheets**: I learned the reason behind the name "Cascading" Style Sheets and how CSS rules are applied in a cascading manner.
 
-- **Browser Developer Tools**: I got hands-on experience with browser developer tools to debug and inspect web pages.
+- **Storing CSS Code in External Files**: I explored the benefits of organizing and maintaining CSS code in external files for cleaner and more efficient web development.
 
-- **Adding a Link**: I learned how to add hyperlinks to connect different web pages.
+- **The Void Element Syntax**: I gained insights into the syntax of void elements in HTML, essential for creating web content.
 
-- **Nesting HTML Elements**: I discovered the power of nesting HTML elements for structuring web content.
+- **Multiple Files & Requests**: I learned about handling multiple files and requests in web development, optimizing performance.
 
-- **Using Global CSS Styles**: I expanded my CSS knowledge by working with global styles for consistent design.
+- **Selecting Single Elements with the ID Selector**: I discovered how to select and style individual elements using the ID selector.
 
-- **CSS Code Formatting**: I continued to improve my CSS skills, focusing on code organization and readability.
+- **Working with "font-size" and "px"**: I dived into typography by manipulating font sizes in pixels (px) to achieve precise text styling.
 
-- **HTML Document Skeleton & Metadata**: I gained insights into the structure and metadata of HTML documents.
+- **Using Other Fonts from Google Fonts**: I explored the world of typography further, incorporating different fonts from Google Fonts into my web projects.
 
-- **Visual Studio Code Shortcuts & Tricks**: I enhanced my coding efficiency with Visual Studio Code shortcuts and tricks.
+With each passing day, I'm honing my web development skills, and it's exhilarating to see my coding abilities grow! 🌟📚
 
-- **Code Comments**: I implemented code comments for documentation and collaboration purposes.
-
-- **First Summary**: I summarized the key takeaways from today's learning, reinforcing my understanding.
-
-Each day brings new challenges and discoveries, and I'm thrilled to be on this coding journey! 🌟💡
-
-Stay tuned for more updates as I progress through this web development bootcamp! 🚀🌐
+Stay tuned for more updates as I continue my journey through this web development bootcamp! 🚀🌐
 
 
 ## Connect With Me
@@ -38,4 +32,4 @@ Stay tuned for more updates as I progress through this web development bootcamp!
 - **Twitter**: [@ylssty17](https://twitter.com/ylssty17)
 - **LinkedIn**: [Yulius Setyawan](https://linkedin.com/in/yulius17)
 
-Let's keep learning and coding together! 🌐💻
+Let's keep learning and coding together! 💻📖
