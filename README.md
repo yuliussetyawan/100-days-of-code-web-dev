@@ -36,8 +36,8 @@ Feel free to explore and use this repository in a few ways:
 
 I'd love to connect with fellow coders, learners, and enthusiasts. You can reach out to me on social media or through GitHub. Let's learn and code together!
 
-- **Twitter**: [@YourTwitterHandle](https://twitter.com/ylssty17)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yulius17)
+- **Twitter**: [@ylssty17](https://twitter.com/ylssty17)
+- **LinkedIn**: [Yulius Setyawan](https://linkedin.com/in/yulius17)
 
 ## Acknowledgment
 
