@@ -1,35 +1,42 @@
 # 100 Days Of Code - 2023 Web Development Bootcamp
 
-## Day 4: Embracing the Magic of CSS
+## Day 5: Text, Images, Styling, and Challenges
 
-Welcome to Day 4 of my 100 Days Of Code journey in the "100 Days Of Code - 2023 Web Development Bootcamp." Today was filled with CSS magic and newfound knowledge that I'm excited to share with you.
+Welcome to Day 5 of my 100 Days Of Code journey in the "100 Days Of Code - 2023 Web Development Bootcamp." Today was packed with exciting learning, challenges, and practical coding. Let me share the highlights of my day with you:
 
-**Day 4 Highlights:**
+**Day 5 Highlights:**
 
-- **Styling the Anchor Element with Pseudo-Hover**: I delved into CSS to style anchor elements with pseudo-hover effects, adding interactivity to my web pages.
+- **Understanding How HTML & CSS Handle Text & Whitespace**: I delved deeper into HTML and CSS, gaining a better understanding of how they handle text and whitespace.
 
-- **Why it's Called Cascading Style Sheets**: I learned the reason behind the name "Cascading" Style Sheets and how CSS rules are applied in a cascading manner.
+- **Adding an Image**: I learned how to incorporate images into web pages, adding visual elements to my projects.
 
-- **Storing CSS Code in External Files**: I explored the benefits of organizing and maintaining CSS code in external files for cleaner and more efficient web development.
+- **Styling the Image & Using the Body Tag**: I explored image styling and the use of the body tag to apply styles to the entire web page.
 
-- **The Void Element Syntax**: I gained insights into the syntax of void elements in HTML, essential for creating web content.
+- **Styling the Overall Page Background**: I enhanced my skills in page background styling, giving my web pages a unique look.
 
-- **Multiple Files & Requests**: I learned about handling multiple files and requests in web development, optimizing performance.
+- **Adding a Second HTML File**: I expanded my project by adding a second HTML file, organizing content effectively.
 
-- **Selecting Single Elements with the ID Selector**: I discovered how to select and style individual elements using the ID selector.
+- **A Word About File Name Conventions**: I learned about best practices for naming files, ensuring consistency and clarity in my projects.
 
-- **Working with "font-size" and "px"**: I dived into typography by manipulating font sizes in pixels (px) to achieve precise text styling.
+- **A Challenge for You!**: I took on a coding challenge to test my newly acquired skills. It was a fantastic hands-on experience.
 
-- **Using Other Fonts from Google Fonts**: I explored the world of typography further, incorporating different fonts from Google Fonts into my web projects.
+- **Challenge Solution**: After the challenge, I reviewed the solution to learn and reinforce my understanding.
 
-With each passing day, I'm honing my web development skills, and it's exhilarating to see my coding abilities grow! 🌟📚
+- **Assignment 1 - Time to Practice - Your First Challenge!**: I practiced further with the first assignment, honing my coding skills.
+
+- **Using a Shared CSS File**: I explored the benefits of using a shared CSS file for consistent styling across multiple web pages.
+
+- **Organizing Source Files in Folders**: I learned how to organize source files into folders for better project structure.
+
+- **Summary**: I summarized the key takeaways from today's learning, reflecting on the progress made.
+
+Each day is a step forward in my web development journey, and I can't wait to see what tomorrow brings! 🌟💻
 
 Stay tuned for more updates as I continue my journey through this web development bootcamp! 🚀🌐
-
 
 ## Connect With Me
 
 - **Twitter**: [@ylssty17](https://twitter.com/ylssty17)
 - **LinkedIn**: [Yulius Setyawan](https://linkedin.com/in/yulius17)
 
-Let's keep learning and coding together! 💻📖
+Let's keep learning and coding together! 🌐💡
