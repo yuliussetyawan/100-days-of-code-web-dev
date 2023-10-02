@@ -1,38 +1,32 @@
 # 100 Days Of Code - 2023 Web Development Bootcamp
 
-## Day 5: Text, Images, Styling, and Challenges
+## Day 6: Exploring Development Servers, Lists, and CSS Magic
 
-Welcome to Day 5 of my 100 Days Of Code journey in the "100 Days Of Code - 2023 Web Development Bootcamp." Today was packed with exciting learning, challenges, and practical coding. Let me share the highlights of my day with you:
+Welcome to Day 6 of my 100 Days Of Code journey in the "100 Days Of Code - 2023 Web Development Bootcamp." Today marked the beginning of a new module, and I had the opportunity to dive into some exciting topics. Let me share the highlights of my day with you:
 
-**Day 5 Highlights:**
+**Day 6 Highlights:**
 
-- **Understanding How HTML & CSS Handle Text & Whitespace**: I delved deeper into HTML and CSS, gaining a better understanding of how they handle text and whitespace.
+- **Module Introduction**: I started a new module, setting the stage for a fresh set of web development concepts and challenges.
 
-- **Adding an Image**: I learned how to incorporate images into web pages, adding visual elements to my projects.
+- **Using the Live Server Extension**: I learned how to use the Live Server extension, a valuable tool for real-time web development.
 
-- **Styling the Image & Using the Body Tag**: I explored image styling and the use of the body tag to apply styles to the entire web page.
+- **The Development Server & The Local Website Address**: I explored the development server and understood how to access my local website during development.
 
-- **Styling the Overall Page Background**: I enhanced my skills in page background styling, giving my web pages a unique look.
+- **Understanding Lists**: I delved into the world of lists in HTML, understanding their structure and significance.
 
-- **Adding a Second HTML File**: I expanded my project by adding a second HTML file, organizing content effectively.
+- **Creating Lists**: I learned how to create and format lists, a fundamental aspect of web content presentation.
 
-- **A Word About File Name Conventions**: I learned about best practices for naming files, ensuring consistency and clarity in my projects.
+- **Understanding Parents, Children, Containers & More**: I expanded my knowledge of HTML elements, including parent-child relationships and container elements.
 
-- **A Challenge for You!**: I took on a coding challenge to test my newly acquired skills. It was a fantastic hands-on experience.
+- **Understanding Cascading, Inheritance & Specificity**: I explored the intricacies of CSS, including cascading rules, inheritance, and specificity.
 
-- **Challenge Solution**: After the challenge, I reviewed the solution to learn and reinforce my understanding.
+- **Styling the Full Week Page**: The highlight of the day! I applied my CSS skills to style a web page, witnessing CSS magic in action.
 
-- **Assignment 1 - Time to Practice - Your First Challenge!**: I practiced further with the first assignment, honing my coding skills.
-
-- **Using a Shared CSS File**: I explored the benefits of using a shared CSS file for consistent styling across multiple web pages.
-
-- **Organizing Source Files in Folders**: I learned how to organize source files into folders for better project structure.
-
-- **Summary**: I summarized the key takeaways from today's learning, reflecting on the progress made.
-
-Each day is a step forward in my web development journey, and I can't wait to see what tomorrow brings! 🌟💻
+With each passing day, I'm gaining a deeper understanding of web development concepts and honing my coding skills. It's an exhilarating journey of learning and growth! 🌟💻
 
 Stay tuned for more updates as I continue my journey through this web development bootcamp! 🚀🌐
+
+![Web Development](web_dev_image.png)
 
 ## Connect With Me
 
