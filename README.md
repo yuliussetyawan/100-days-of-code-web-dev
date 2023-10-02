@@ -26,8 +26,6 @@ With each passing day, I'm gaining a deeper understanding of web development con
 
 Stay tuned for more updates as I continue my journey through this web development bootcamp! 🚀🌐
 
-![Web Development](web_dev_image.png)
-
 ## Connect With Me
 
 - **Twitter**: [@ylssty17](https://twitter.com/ylssty17)
