@@ -1,28 +1,34 @@
 # 100 Days Of Code - 2023 Web Development Bootcamp
 
-## Day 7: Unraveling the CSS Box Model, HTML Layouts, and Selectors
+## Day 8: Mastering CSS Styling and Layouts
 
-Welcome to Day 7 of my 100 Days Of Code journey in the "100 Days Of Code - 2023 Web Development Bootcamp." Today was packed with valuable insights into CSS, HTML layouts, and selectors. Let me share the highlights of my day with you:
+Welcome to Day 8 of my 100 Days Of Code journey in the "100 Days Of Code - 2023 Web Development Bootcamp." Today was all about the art of CSS styling and creating beautiful layouts. Let me share the highlights of my day with you:
 
-**Day 7 Highlights:**
+**Day 8 Highlights:**
 
-- **Introducing the CSS Box Model**: I began the day by diving into the CSS Box Model, a fundamental concept in web design, understanding how elements are structured.
+- **Styling Differences Between Block & Inline Elements**: I explored the nuances of styling block and inline elements, understanding how they behave differently in CSS.
 
-- **Using the CSS Box Model**: I got hands-on experience in utilizing the CSS Box Model to control spacing, padding, and margins around elements.
+- **Understanding Margin Collapsing**: I learned about margin collapsing, a concept that can have a significant impact on layout design.
 
-- **Creating HTML Layouts**: I explored the art of creating HTML layouts, understanding how to structure web content effectively.
+- **The "box-shadow" Property**: I added shadows to elements using the "box-shadow" property, enhancing the visual appeal of my web pages.
 
-- **Theory: Selectors & Combinators**: I delved into the theory behind selectors and combinators in CSS, learning how to target specific elements.
+- **Your Challenge!**: I took on a coding challenge, putting my newfound CSS skills to the test. Challenges like these are where the real learning happens!
 
-- **Using Selectors & Combinators**: I applied what I learned by using selectors and combinators to style and modify HTML elements precisely.
+- **Creating the HTML Layout**: I continued to work on creating and structuring HTML layouts, ensuring my web content flows seamlessly.
 
-- **Understanding Classes**: I gained a deeper understanding of classes, an essential concept for applying styles to multiple elements.
+- **Styling the Main Section**: I focused on styling the main content section of my web page, making it visually engaging and user-friendly.
 
-- **Block vs. Inline Elements**: I explored the differences between block and inline elements, which play a crucial role in HTML layout design.
+- **Styling Images & Working with Negative Margins**: I explored advanced styling techniques, including working with images and using negative margins for precise layout control.
 
-Each day brings new challenges and discoveries, and I'm thrilled to continue my journey in web development! 🌟📦
+- **Finishing Touches**: I added the finishing touches to my web project, ensuring it meets the highest standards of design and functionality.
 
-Stay tuned for more updates as I progress through this web development bootcamp! 🚀🌐
+- **Module Summary**: I summarized the key takeaways from today's module, reflecting on the knowledge and skills gained.
+
+- **A List Of All CSS Selectors**: I compiled a list of all CSS selectors, an essential reference for my web development journey.
+
+Every day brings new challenges and opportunities for growth, and I'm excited to be on this coding adventure! 🌟🎨
+
+Stay tuned for more updates as I continue my journey through this web development bootcamp! 🚀🌐
 
 
 ## Connect With Me
