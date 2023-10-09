@@ -1,38 +1,26 @@
 # 100 Days Of Code - 2023 Web Development Bootcamp
 
-## Day 11: Hosting, Deployment, Git, and GitHub Mastery
+## Day 12: Embracing Git and Making My First Commit
 
-Welcome to Day 11 of my 100 Days Of Code journey in the "100 Days Of Code - 2023 Web Development Bootcamp." Today was packed with essential skills and concepts, including hosting, deployment, Git, and GitHub. Let me share the highlights of my day with you:
+Welcome to Day 12 of my 100 Days Of Code journey in the "100 Days Of Code - 2023 Web Development Bootcamp." Today was all about mastering the fundamentals of Git and taking my first steps in version control. Let me share the highlights of my day with you:
 
-**Day 11 Highlights:**
+**Day 12 Highlights:**
 
-- **Module Introduction**: I kicked off a new module, ready to explore the fascinating world of hosting and deployment.
+- **Optional: Windows Command Prompt (cmd) Crash Course**: I embarked on an optional journey into the Windows Command Prompt, gaining valuable command-line skills.
 
-- **What is "Hosting" & "Deployment"?**: I gained a clear understanding of hosting and deployment, essential for bringing web projects to life.
+- **Git: Windows Installation**: I explored Git installation on Windows, ensuring I have the right setup for my coding projects.
 
-- **Hosting a First Static Website (Example Deployment on Netlify)**: I had a hands-on experience with hosting my first static website on Netlify. Check it out here: [My Daily Challenge - Day 11](https://my-daily-challenge-day-11.netlify.app)
+- **Understanding the Git Basics**: I delved into the core concepts of Git, understanding its purpose and power in collaborative coding.
 
-- **More Information On Netlify & HTTPS**: I dove deeper into Netlify and learned about HTTPS, ensuring secure web connections.
+- **Initializing the Repository & Creating My First Commit**: The highlight of the day! I initiated my first Git repository and made my very first commit - a significant milestone in my coding journey.
 
-- **Adding a Favicon**: I added a favicon to my website, adding a touch of branding and identity.
+With each passing day, my coding skills grow stronger, and I'm equipped with powerful tools like Git to streamline my development process. 🌟🔗
 
-- **Relative vs. Absolute Paths**: I explored the differences between relative and absolute paths, essential for navigating web content.
-
-- **Share Your Website!**: I'm excited to share my deployed project with you all! Check it out: [My Daily Challenge - Day 11](https://my-daily-challenge-day-11.netlify.app)
-
-- **What are Git & GitHub?**: I delved into the world of version control with Git and learned about collaborative development with GitHub.
-
-- **Command Line Interface (CLI) vs. Graphical User Interface (GUI)**: I compared CLI and GUI, understanding their respective strengths.
-
-- **Optional: MacOS Terminal (z Shell) Crash Course**: I dived into a crash course on the MacOS Terminal (z Shell), an optional but valuable skill.
-
-Every day brings new knowledge and skills, and I'm excited to see my web development journey progress! 🌟🌐
-
-Stay tuned for more updates as I continue my journey through this web development bootcamp! 🚀📦
+Stay tuned for more updates as I continue my journey through this web development bootcamp! 🚀💻
 
 ## Connect With Me
 
 - **Twitter**: [@ylssty17](https://twitter.com/ylssty17)
 - **LinkedIn**: [Yulius Setyawan](https://linkedin.com/in/yulius17)
 
-Let's keep learning and coding together! 💡💻
+Let's keep learning and coding together! 💡🌐
