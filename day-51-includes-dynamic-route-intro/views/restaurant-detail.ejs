@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('includes/head') %>
+  <!-- need to includes / in the start of css link to switch into the absolute paths -->
+  <link rel="stylesheet" href="/styles/restaurants.css" />
+</head>
+
+<body>
+  <!-- <%- %> will actually treat as HTML code, instead of raw text -->
+  <%- include('includes/header') %>
+    <%- include('includes/side-drawer') %>
+      <main>
+        <h1>TITLE OF THE RESTAURANT <%= rid %>
+        </h1>
+        <p>Cuisine | Address</p>
+        <p>Description of the restaurant</p>
+        <p><a href="">View Website</a></p>
+      </main>
+</body>
+
+</html>
