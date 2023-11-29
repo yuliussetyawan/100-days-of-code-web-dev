@@ -1,0 +1,11 @@
+1. Select in Sql:
+SELECT id, name from restaurants WHERE type = 'German'
+
+2. Count how many items
+SELECT COUNT(*) from restaurants WHERE type = 'German'
+
+3. Update Query
+UPDATE restaurants SET name = 'Web Dev Meals' WHERE id = 1
+
+4. Delete Query
+DELETE from restaurants WHERE id = 1
