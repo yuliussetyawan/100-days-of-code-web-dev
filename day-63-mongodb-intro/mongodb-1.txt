@@ -1,0 +1,19 @@
+MongoDB command
+
+1. start Mongo server
+net start MongoDB
+
+2. stop Mongo server
+net stop MongoDB
+
+3. show databases
+show dbs
+
+4. switch/ create collection named rating portal
+use ratingportal
+
+5. add collection
+db.restaurants.insertOne({name:"Munich SchnitzelHouse", address:{street:"Some Street 5", streetNumber: "23b"}})
+
+6. find collection
+db.restaurants.find({name: "Munich SchnitzelHouse"})
