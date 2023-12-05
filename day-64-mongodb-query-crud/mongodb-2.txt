@@ -1,0 +1,99 @@
+MongoDB command
+
+1. start Mongo server
+= net start MongoDB
+
+
+2. stop Mongo server
+= net stop MongoDB
+
+
+3. show databases
+= show dbs
+
+
+4. switch/ create db named rating portal
+= use ratingportal
+
+
+5. add collection
+= db.restaurants.insertOne({name:"Munich SchnitzelHouse", address:{street:"Some Street 5", streetNumber: "23b"}})
+
+
+6. find collection
+= db.restaurants.find({name: "Munich SchnitzelHouse"})
+
+- Result:
+[
+  {
+    _id: ObjectId('656ca96b438d3527c6d755bd'),
+    name: 'Munich SchnitzelHouse',
+    address: { street: 'Some Street 5', streetNumber: '23b' }
+  }
+]
+
+
+7. find collection but with showing name only and id by default
+= db.restaurants.find({},{name: 1})
+
+- Result:
+[
+  {
+    _id: ObjectId('656ca96b438d3527c6d755bd'),
+    name: 'Munich SchnitzelHouse'
+  },
+  { _id: ObjectId('656ca9d0438d3527c6d755be'), name: 'Burger House' }
+]
+
+
+8. find collection with excluding the id and only showing name
+= db.restaurants.find({},{name: 1, _id:0})
+
+- Result:
+[ { name: 'Munich SchnitzelHouse' }, { name: 'Burger House' } ]
+
+
+9. find first matching documents (returning object not an array)
+= db.restaurants.findOne({name: "Munich SchnitzelHouse"})
+
+- Result:
+{
+  _id: ObjectId('656ca96b438d3527c6d755bd'),
+  name: 'Munich SchnitzelHouse',
+  address: { street: 'Some Street 5', streetNumber: '23b' }
+}
+
+
+10. update documents
+=  db.restaurants.updateOne({_id: ObjectId('656ca96b438d3527c6d755bd')}, {$set:{"address.street":"Some Street"}})
+
+- Result (street data updated)
+[
+  {
+    _id: ObjectId('656ca96b438d3527c6d755bd'),
+    name: 'Munich SchnitzelHouse',
+    address: { street: 'Some Street', streetNumber: '23b' }
+  },
+  {
+    _id: ObjectId('656ca9d0438d3527c6d755be'),
+    name: 'Burger House',
+    address: { street: 'Another Street', streetNumber: '15' }
+  }
+]
+
+
+11. delete documents
+= db.restaurants.deleteOne({_id: ObjectId("656ca9d0438d3527c6d755be")})
+
+- Result (the 2nd data is deleted):
+[
+  {
+    _id: ObjectId('656ca96b438d3527c6d755bd'),
+    name: 'Munich SchnitzelHouse',
+    address: { street: 'Some Street', streetNumber: '23b' }
+  }
+]
+
+
+12. delete all the documents (because "{}" sets up a filter that matches all documents)
+= db.restaurants.deleteMany({})

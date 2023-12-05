@@ -1,0 +1,27 @@
+1. Creating types collection
+- db.types.insertOne({name:"German"})
+- db.types.insertOne({name:"Italian"})
+- db.types.insertOne({name:"American"})
+
+2. Creating restaurants collection
+- db.restaurants.insertOne({name: "Munich Schnitzelhouse", address: {street: "Foodstreet", streetNumber: "23b", postalCode: 80333, city: "Munich", country: "Germany"},type:{typeId: ObjectId("656df35f2ae5a6b8dfb089f3"), name: "German"}})
+-  db.restaurants.insertOne({name: "Munich Schnitzelhouse", address: {street: "Foodstreet", streetNumber: "23b", postalCode: 80333, city: "Munich", country: "Germany"},type:{typeId: ObjectId("656df35f2ae5a6b8dfb089f3"), name: "German"}})
+
+3. Create reviews collection
+- db.reviews.insertOne({reviewer: {firstName: "Max", lastName: "Schwarzmuller"}, rating: 3, text: "This was okay, could be better!", date: new Date("2023-12-04"), restaurant:{id: ObjectId('656df5272ae5a6b8dfb089f6'), name: "Munich Scnitzelhouse"}})
+-  db.reviews.insertOne({reviewer: {firstName: "Max", lastName: "Schwarzmuller"}, rating: 5, text: "This was amazing", date: new Date("2023-12-04"), restaurant:{id: ObjectId('656df61b2ae5a6b8dfb089f7'), name: "Berlin Burgerhouse"}})
+
+4. Select reviews with > 4 star rating
+- db.reviews.find({rating:{$gt:4}})
+* gt: greater than
+* gte: greater than / equals
+* lt: lower than
+* lte: lower than equals
+(https://www.mongodb.com/docs/manual/reference/operator/query/)
+
+5. Select reviews > 1 and < 3
+- db.reviews.find({$and:[{rating: {$gt: 1}}, {rating: {$lt: 3}}]})
+
+6. Update restaurants data
+- db.restaurants.updateOne({_id: ObjectId('656df5272ae5a6b8dfb089f6')}, {$set:{"address.street":"Schnitzelstreet"}})
+
