@@ -1,0 +1,6 @@
+1. create collection
+= use blog
+
+2. add authors db
+= db.authors.insertOne({name: "Maximillian Schwarzmuller", email: "max@test.com"})
+= db.authors.insertOne({name: "Manuel Lorens", email: "manuel@test.com"})
