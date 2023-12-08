@@ -53,12 +53,21 @@ router.post("/posts", async function (req, res) {
   res.redirect("/posts");
 });
 
-router.get("/posts/:id/", async function (req, res) {
+router.get("/posts/:id/", async function (req, res, next) {
+  let postId = req.params.id;
+
+  try {
+    postId = new ObjectId(postId);
+  } catch (err) {
+    return res.status(404).render("404");
+    // next() will forward default err to error handling
+    // return next(err)
+  }
   const post = await db
     .getDb()
     .collection("posts")
     // exclude post.summary
-    .findOne({ _id: new ObjectId(req.params.id) }, { summary: 0 });
+    .findOne({ _id: postId }, { summary: 0 });
   if (!post || post.length === 0) {
     return res.status(404).render("404");
   }
@@ -75,12 +84,17 @@ router.get("/posts/:id/", async function (req, res) {
 });
 
 router.get("/posts/:id/edit", async function (req, res) {
-  const paramId = req.params.id;
+  let postId = req.params.id;
+  try {
+    postId = new ObjectId(paramId);
+  } catch (err) {
+    return res.status(404).render("404");
+  }
   const post = await db
     .getDb()
     .collection("posts")
     // exclude post.summary
-    .findOne({ _id: new ObjectId(paramId) }, { summary: 1, title: 1, body: 1 });
+    .findOne({ _id: postId }, { summary: 1, title: 1, body: 1 });
   if (!post || post.length === 0) {
     return res.status(404).render("404");
   }
@@ -88,12 +102,17 @@ router.get("/posts/:id/edit", async function (req, res) {
 });
 
 router.post("/posts/:id/edit", async function (req, res) {
-  const postId = req.params.id;
+  let postId = req.params.id;
+  try {
+    postId = new ObjectId(paramId);
+  } catch (err) {
+    return res.status(404).render("404");
+  }
   await db
     .getDb()
     .collection("posts")
     .updateOne(
-      { _id: new ObjectId(postId) },
+      { _id: postId },
       {
         $set: {
           title: req.body.title,
@@ -107,7 +126,12 @@ router.post("/posts/:id/edit", async function (req, res) {
 });
 
 router.post("/posts/:id/delete", async function (req, res) {
-  const postId = new ObjectId(req.params.id);
+  let postId = req.params.id;
+  try {
+    postId = new ObjectId(paramId);
+  } catch (err) {
+    return res.status(404).render("404");
+  }
   await db.getDb().collection("posts").deleteOne({ _id: postId });
   res.redirect("/posts");
 });
