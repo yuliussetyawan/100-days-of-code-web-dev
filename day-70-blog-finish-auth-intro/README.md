@@ -16,8 +16,8 @@ Welcome to Day 70 of my 100 Days Of Code journey in the "2023 Web Development Bo
 
 This day marked significant progress in creating dynamic, user-friendly, and secure web applications. Excited about the possibilities ahead! 🚀🔒
 
-![Day 60 Preview](blog/preview.png)
-![Day 60 Preview](demo-project-auth-1/preview.png)
+![Day 70 Preview](blog/preview.png)
+![Day 70 Preview](demo-project-auth-1/preview.png)
 
 - **Twitter**: [@ylssty17](https://twitter.com/ylssty17)
 - **LinkedIn**: [Yulius Setyawan](https://linkedin.com/in/yulius17)
