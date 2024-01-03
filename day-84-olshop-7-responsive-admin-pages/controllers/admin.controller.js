@@ -1,9 +1,9 @@
 function getProducts(req, res) {
-  res.render('admin/product/all-products')
+  res.render('admin/products/all-products')
 }
 
 function getNewProduct(req, res) {
-  res.render('admin/product/new-product')
+  res.render('admin/products/new-product')
 }
 
 function createNewProduct() {}
