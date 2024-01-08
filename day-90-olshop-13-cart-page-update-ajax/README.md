@@ -12,7 +12,7 @@ Welcome to Day 90 of my coding journey! Today, I focused on providing a clear an
 
 * **Dynamic Quantity Adjustments:** Enabled users to update item quantities within their carts without full page reloads, utilizing Ajax PATCH requests to provide a smoother and more responsive interaction.
 
-![Day 90 Preview](preview.png)
+![Day 90 Preview](./preview.png)
 
 **Stay tuned as I continue to refine the cart functionality, incorporating features like item removal, visual feedback, and potential cart persistence mechanisms to further streamline the shopping journey! ️**
 
